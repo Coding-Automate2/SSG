@@ -23,7 +23,7 @@ public class LoginSteps {
 		System.setProperty("webdriver.chrome.driver","S:/Eclipse/workspace/CucumberJava/src/test/resources/drivers/chromedriver.exe");
 		driver =new ChromeDriver();
 		//driver.manage().window().maximize();
-		driver.get("https://demo.ssc-live.com/viewer/ThirdPartyLogin.jsp");
+		//driver.get("https://demo.ssc-live.com/viewer/ThirdPartyLogin.jsp");
 	}
 	
 	@When("user enters username and selects currency")
